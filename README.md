@@ -36,6 +36,15 @@ it, simply add the following line to your Podfile:
 pod 'Matswift'
 ```
 
+Swift Package:
+```swift
+ .package(url: "https://github.com/magicspring/Matswift.git", form: "0.1.3")
+```
+
+And don't forget to add Dependencies in .traget
+.target(name: "App", dependencies: ["Vapor", "FluentProvider", "Matswift"],
+
+
 ## Roadmap
 
 - More operations
