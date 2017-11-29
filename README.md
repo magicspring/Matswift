@@ -24,7 +24,7 @@ Matswift is a matrix computation library. As it is currently based on `Accelerat
 
 ## Requirements
 
-- iOS 10.3+ / macOS 10.12+
+- iOS 10.3+ / macOS 10.12+ / Ubuntu
 - Swift 4.0+
 
 ## Installation
@@ -38,12 +38,13 @@ pod 'Matswift'
 
 Swift Package:
 ```swift
- .package(url: "https://github.com/magicspring/Matswift.git", form: "0.1.3")
+.package(url: "https://github.com/magicspring/Matswift.git", form: "0.1.3")
 ```
 
 And don't forget to add Dependencies in .traget
+```swift
 .target(name: "App", dependencies: ["Vapor", "FluentProvider", "Matswift"],
-
+```
 
 ## Roadmap
 
